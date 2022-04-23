@@ -19,6 +19,7 @@ header {
     display: grid ;
     grid-template-columns: 150px 1fr ;
     text-shadow: 3px 3px 3px rgb(172 173 173) ;
+    font-size: 18px ;
 }
 
 header img {
