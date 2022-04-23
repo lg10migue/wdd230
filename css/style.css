@@ -1,0 +1,55 @@
+* {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+}
+
+body {
+    font-size: 16px ;
+    font-family: 'Roboto Mono', monospace ;
+}
+
+header, main, footer {
+    max-width: 600px ;
+    margin: 0 auto ;
+    border-radius: 12px ;
+}
+
+header {
+    display: grid ;
+    grid-template-columns: 150px 1fr ;
+    text-shadow: 3px 3px 3px rgb(172 173 173) ;
+}
+
+header img {
+    width: 100% ;
+    height: auto ;
+    border-radius: 3px ;
+    margin-left: 10% ;
+    box-shadow: 0 0 10px black ;
+}
+
+header, footer {
+    margin: 1rem auto ;
+    border: 1px solid #bbb ;
+    padding: .6rem ;
+    background-color: rgb(33, 134, 201) ;
+    align-items: center ;
+    text-align: center ;
+    color: white ;
+    box-shadow: 0 0 10px black ;
+}
+
+h2 {
+    text-shadow: 0px 0px 15px rgb(94 94 94);
+}
+
+aside {
+    font-style: italic ;
+}
+
+ul {
+    margin: 1% ;
+    margin-left: 5% ;
+    line-height: 1.5 ;
+}
