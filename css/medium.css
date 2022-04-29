@@ -1,0 +1,14 @@
+@media ( min-width: 32.5em ) {
+    body {
+        font-size: 15.5px ;
+    }
+
+    header {
+        font-size: 17px ;
+        text-shadow: 3px 3px 3px rgb(172 173 173) ;
+    }
+
+    header img {
+        box-shadow: 0 0 10px black ;
+    }
+}

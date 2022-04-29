@@ -5,7 +5,6 @@
 }
 
 body {
-    font-size: 15.5px ;
     font-family: 'Roboto Mono', monospace ;
 }
 
@@ -18,8 +17,6 @@ header, main, footer {
 header {
     display: grid ;
     grid-template-columns: 150px 1fr ;
-    text-shadow: 3px 3px 3px rgb(172 173 173) ;
-    font-size: 18px ;
 }
 
 header img {
@@ -27,7 +24,6 @@ header img {
     height: auto ;
     border-radius: 3px ;
     margin-left: 10% ;
-    box-shadow: 0 0 10px black ;
 }
 
 header, footer {
