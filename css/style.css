@@ -31,7 +31,7 @@ header img {
 }
 
 header, footer {
-    margin: 1rem auto ;
+    margin: .5rem auto ;
     border: 1px solid #bbb ;
     padding: .6rem ;
     background-color: rgb(42, 116, 165) ;
