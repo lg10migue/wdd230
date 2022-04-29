@@ -1,0 +1,18 @@
+* {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+}
+
+footer {
+    max-width: 600px ;
+    margin: 0 auto ;
+    border: 1px solid #bbb ;
+    padding: .6rem ;
+    background-color: rgb(42, 116, 165) ;
+    align-items: center ;
+    text-align: center ;
+    color: white ;
+    border-radius: 12px ;
+    box-shadow: 0 0 10px black ;
+}
