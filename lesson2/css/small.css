@@ -1,18 +1,73 @@
-* {
-    margin: 0 ;
-    padding: 0 ;
-    box-sizing: border-box ;
+body {
+	font-family: 'Open Sans', sans-serif ;
+	font-size: 16px ;
+	border-radius: 1em ;
+	margin: 0 ;
+	padding: 0 ;
 }
 
+header {
+	margin: auto ;
+	text-align: center ;
+	padding-bottom: 1em ;
+	background-color: rgb(42, 116, 165) ;
+}
+
+main {
+	max-width: 767px ;
+	margin: 0 auto ;
+	display: grid ;
+	grid-template-columns: 1fr ;
+}
+
+main section {
+	margin: 0.5rem ;
+	background-color: #eee ;
+	border-radius: 0.8em ;
+	border: 0.5px solid #bbb ;
+}
+
+section p {
+	padding: 1em ;
+}
+
+h1 {
+	padding: 20px ;
+	margin: auto ;
+	align-items: center ;
+}
+
+h2 {
+	margin: 0 ;
+	padding: 0.8rem ;
+	text-align: center ;
+}
+
+.title {
+	background-color: rgb(64, 158, 221) ;
+	border-radius: 0.8em 0.8em 0 0 ;
+}
+
+h3 {
+	text-align: center ;
+	font-size: medium ;
+}
+
+img {
+    display: block ;
+    margin-left: auto ;
+    margin-right: auto ;
+    max-width: 100% ;
+	height: auto ;
+	box-shadow: 0 0 30px #333 ;
+  }
+
 footer {
-    max-width: 600px ;
-    margin: 0 auto ;
-    border: 1px solid #bbb ;
-    padding: .6rem ;
-    background-color: rgb(42, 116, 165) ;
-    align-items: center ;
-    text-align: center ;
-    color: white ;
-    border-radius: 12px ;
-    box-shadow: 0 0 10px black ;
+	background-color: rgb( 42, 116, 165 ) ;
+	padding: 1em ;
+	text-align: center ;
+}
+
+header, footer, .title {
+    color: rgb(255, 255, 255) ;
 }

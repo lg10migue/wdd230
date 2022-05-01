@@ -30,7 +30,7 @@ header, footer {
     margin: 1rem auto ;
     border: 1px solid #bbb ;
     padding: .6rem ;
-    background-color: rgb(42, 116, 165) ;
+    background-color: rgb( 42, 116, 165 ) ;
     align-items: center ;
     text-align: center ;
     color: white ;
@@ -38,7 +38,7 @@ header, footer {
 }
 
 h2 {
-    text-shadow: 0px 0px 15px rgb(94 94 94);
+    text-shadow: 0px 0px 15px rgb( 94, 94, 94 );
 }
 
 aside {
