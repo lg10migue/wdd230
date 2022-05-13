@@ -1,2 +1,128 @@
 @media only screen and (min-width: 37.5em) {
+    /* Header */
+
+    .header-container {
+        font-size: .8em ;
+    }
+
+    header img {
+        width: 80px ;
+    }
+
+    .current-date {
+        font-size: .8em ;
+        padding: .6em ;
+    }
+
+    nav button {
+        font-size: 1em ;
+    }
+
+    nav ul.open {
+        font-size: 1em ;
+        margin: 0 ;
+    }
+
+    /* Main */
+
+    main div, article {
+        margin: .5em ;
+    }
+
+    main {
+        display: grid ;
+        grid-template-columns: repeat( 3, 1fr) ;
+        grid-template-rows: repeat( 5, 1fr ) ;
+    }
+
+    .hero {
+        grid-column: 1/4 ;
+    }
+
+    .news-release {
+        grid-column: 1/4 ;
+        grid-row: 2/3 ;
+    }
+
+    .spotlight {
+        flex-direction: row ;
+        grid-column: 1/4 ;
+        grid-row: 3/4 ;
+    }
+
+    .join {
+        grid-column: 1/4 ;
+        grid-row: 4/5 ;
+        display: block ;
+    }
+    
+    .event {
+        grid-column: 1/3 ;
+    }
+
+    .spot {
+        width: 100% ;
+        height: auto ;
+        margin: 3px ;
+    }
+
+    /* Footer */
+
+    footer {
+        font-size: .6em ;
+        display: grid ;
+        grid-template-columns: repeat( 3, 1fr ) ;
+    }
+
+    footer img {
+        width: 100px ;
+    }
+
+    .footer-logo {
+        grid-column: 1/3 ;
+        display: grid ;
+        grid-template-columns: .4fr 1fr ;
+    }
+
+    .footer-logo a {
+        grid-column: 1/2 ;
+        grid-row: 1/4 ;
+    }
+
+    .footer-logo h1, h3 {
+        grid-column: 2/3 ;
+        text-align: left ;
+    }
+
+    .footer-logo h3 {
+        font-size: 1.2em ;
+    }
+
+    .information {
+        grid-column: 3/4 ;
+    }
+
+    .down-footer {
+        grid-column: 1/4 ;
+        grid-row: 2/3 ;
+        display: grid ;
+        grid-template-columns: repeat( 5, .6fr ) ;
+    }
+
+    hr {
+        grid-column: 1/6 ;
+    }
+
+    #copyright {
+        grid-column: 2/3 ;
+    }
+
+    #update {
+        grid-column: 1/6 ;
+        grid-row: 3/4 ;
+    }
+
+    #name, #class-name, #copyright {
+        border-right: 2px solid #FFF ;
+    }
 }

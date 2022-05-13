@@ -1,0 +1,187 @@
+/* Body */
+
+body {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 16px ;
+}
+
+h1, h2, h3, h4 {
+	font-family: "Open Sans", Arial, sans-serif ;
+}
+
+/* Header */
+
+header {
+	display: flex ;
+	flex-direction: column ;
+	color: #FFF ;
+	background-color: #80A4ED ;
+	justify-content: center ;
+}
+
+.header-container {
+	font-size: .7em ;
+	margin-right: 1.3em ;
+	justify-content: space-between ;
+	display: flex ;
+	align-items: center ;
+	text-align: center ;
+}
+
+header img {
+	width: 60px ;
+	margin: auto ;
+}
+
+.current-date {
+	text-align: center ;
+	font-size: .8em ;
+	background-color: #E41A4F ;
+	padding: .4em ;
+	margin: .8em ;
+}
+
+.logo {
+	display: flex ;
+	padding: 1em ;
+	align-items: center ;
+	text-align: center ;
+}
+
+.social svg {
+	width: 25px;
+	height: auto;
+}
+
+nav {
+	order: 3 ;
+}
+
+nav button {
+	background-color: #80A4ED ;
+	font-size: .8rem ;
+	color: #FFF ;
+	border: 1px solid #FFF ;
+}
+
+nav ul li a:hover {
+	background-color: #E41A4F ;
+}
+
+nav ul li a {
+	display: block ;
+    padding: .5em ;
+    text-decoration: none ;
+    color: #FFF ;
+}
+
+nav ul {
+    display: none ;
+}
+
+nav ul.open {
+	list-style-type: none ;
+    display: block ;
+	font-size: 1.4em ;
+	margin: .1em ;
+}
+
+#hamburgerBtn span:nth-child( 1 ) {
+    display: block ;
+}
+
+#hamburgerBtn span:nth-child( 2 ) {
+    display: none ;
+}
+
+#hamburgerBtn.open span:nth-child( 1 ) {
+    display: none ;
+}
+
+#hamburgerBtn.open span:nth-child( 2 ) {
+    display: block ;
+}
+
+/* Main */
+
+main div, article {
+	font-size: .8rem ;
+    color: #E41A4F ;
+    background-color: #e4e4e4 ;
+	border: 1px solid #a5a5a5 ;
+	text-align: left ;
+	margin: 1em ;
+	padding: 1em ;
+	width: auto ;
+	height: 200px ;
+}
+
+.join {
+	display: none ;
+}
+
+.spotlight {
+	display: flex ;
+	flex-direction: column ;
+	padding: 1em ;
+}
+
+#spot3 {
+	display: none ;
+}
+
+.spot {
+	background-color: #e4e4e4 ;
+	border: 1px solid #a5a5a5 ;
+	width: auto ;
+	height: 150px ;
+	padding: 1em ;
+}
+
+/* Footer */
+
+footer {
+	display: flex ;
+	flex-direction: column ;
+	color: #FFF ;
+	background-color: #80A4ED ;
+	text-align: center ;
+	font-size: .6em ;
+}
+
+footer img {
+	width: 85px ;
+	margin-top: .5em ;
+}
+
+footer h3 {
+	margin: .2em ;
+	font-size: 1.6em ;
+}
+
+footer a {
+	color: #FFF ;
+	text-decoration: none ;
+}
+
+.information {
+	font-size: 1.5em ;
+	padding: .5em ;
+}
+
+hr {
+	border: none ;
+	height: 2px ;
+	background: #e4e4e4 ;
+	width: 100% ;
+}
+
+.down-footer {
+	font-size: 1.4em ;
+	display: block ;
+	margin: .3em ;
+}
+
+.down-footer p {
+	margin: .2em ;
+}
