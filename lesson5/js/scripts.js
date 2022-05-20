@@ -18,6 +18,9 @@ buttonElement.addEventListener( "click", function() {
         // Populate the button textContent with an ❌.
         deleteButton.textContent = "❌" ;
 
+        // Adding aria-label attribute.
+        deleteButton.ariaLabel = `Remove ${newChapter.textContent}`
+
         // Append the li element with the delete button.
         newChapter.append( deleteButton ) ;
 
