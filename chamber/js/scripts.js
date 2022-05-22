@@ -37,7 +37,14 @@ document.getElementById( "lastupdate" ).textContent = lastModification ;
 document.getElementById( "year" ).textContent = year ;
 document.getElementById( "date" ).textContent = `${dayName}, ${day} ${month} ${year}`
 
-// Dynamic Menu
+// Top invitation banner.
+
+if ( day == 1 || day == 2 ) {
+    let topBanner = document.getElementById( "banner" ) ;
+    topBanner.style.display = "block"
+} ;
+
+// Dynamic Menu.
 
 function toggleMenu() {
     document.getElementById( "primaryNav" ).classList.toggle( "open" )

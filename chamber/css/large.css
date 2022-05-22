@@ -9,7 +9,7 @@
         width: 90px ;
     }
 
-    .current-date {
+    .current-date, .top-banner {
         font-size: 1em ;
     }
 
@@ -36,9 +36,11 @@
     /* Main */
 
     main {
+        max-width: 95% ;
+        margin: 0 auto ; 
         display: grid ;
         grid-template-columns: repeat( 4, 1fr) ;
-        grid-template-rows: repeat( 3, 1fr ) ;
+        grid-template-rows: repeat( 3, auto ) ;
     }
 
     main div, article {
