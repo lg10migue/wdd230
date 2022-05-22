@@ -14,7 +14,7 @@ h1, h2, h3, h4 {
 header {
 	display: flex ;
 	flex-direction: column ;
-	color: #FFF ;
+	color: #000 ;
 	background-color: #5f8ce6 ;
 	justify-content: center ;
 }
@@ -64,8 +64,8 @@ nav {
 nav button {
 	background-color: #80A4ED ;
 	font-size: .8rem ;
-	color: #FFF ;
-	border: 1px solid #FFF ;
+	color: #000 ;
+	border: 1px solid #000 ;
 }
 
 nav ul li a:hover {
@@ -76,7 +76,7 @@ nav ul li a {
 	display: block ;
     padding: .5em ;
     text-decoration: none ;
-    color: #FFF ;
+    color: #000 ;
 }
 
 nav ul {
@@ -110,7 +110,7 @@ nav ul.open {
 
 main div, article {
 	font-size: .9rem ;
-    color: #E41A4F ;
+    color: #680c24 ;
     background-color: #c4c2c2 ;
 	border: 1px solid #a5a5a5 ;
 	text-align: center ;
@@ -169,7 +169,7 @@ main h3 {
 footer {
 	display: flex ;
 	flex-direction: column ;
-	color: #FFF ;
+	color: #000 ;
 	background-color: #5f8ce6 ;
 	text-align: center ;
 	font-size: .6em ;
@@ -186,7 +186,7 @@ footer h2 {
 }
 
 footer a {
-	color: #FFF ;
+	color: #000 ;
 	text-decoration: none ;
 }
 
@@ -195,10 +195,10 @@ footer a {
 	padding: .5em ;
 }
 
-hr {
+footer hr {
 	border: none ;
 	height: 2px ;
-	background: #e4e4e4 ;
+	background: #000 ;
 	width: 100% ;
 }
 
