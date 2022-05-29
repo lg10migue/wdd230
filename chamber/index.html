@@ -20,7 +20,7 @@
         </div>
         <div class="header-container">
             <div class="logo">
-                <a href="index.html"><img src="images/chamber_logo.png" width="200" alt="Ciudad Juárez Chamber of Commerce Logo"></a>
+                <a href="index.html"><img src="images/chamber_logo.webp" width="200" alt="Ciudad Juárez Chamber of Commerce Logo"></a>
                 <section>
                     <h1>Ciudad Juárez</h1>
                     <h2>Chamber of Commerce</h2>
@@ -55,7 +55,13 @@
         </div>
     </header>
     <main>
-        <div class="hero"><img src="images/cdjuarez.jpg" alt="Center of Ciudad Juárez">
+        <div class="hero">
+            <picture>
+                <source media="( max-width: 600px )" srcset="images/wdd230-org_small.jpg">
+                <source media="( max-width: 960px )" srcset="images/wdd230-org_medium.jpg">
+                <source media="( max-width: 1550px )" srcset="images/wdd230-org_large.jpg">
+                <img src="images/cdjuarez.jpg" alt="Center of Ciudad Juárez">
+            </picture>
         </div>
         <div class="event">
             <h3>Ribbon Cutting</h3>
@@ -67,11 +73,11 @@
         <div class="weather">
             <h3>Weather</h3>
             <img src="" alt="Actual weather image">
-            <p>33 &#8451;</p>
+            <p><span id="temperature">9</span> &#8451;</p>
             <h2>Partly Cloud</h2>
             <hr>
-            <p>Wind Speed: <span>2.5 km/h</span></p>
-            <p>Wind Chill: <span>N/A</span></p>
+            <p>Wind Speed: <span id="wind-speed">5.5</span> km/h</p>
+            <p>Wind Chill: <span id="wind-chill">N/A</span></p>
         </div>
         <div class="join">
             <a href="#" target="_blank">Join Us!</a>
@@ -114,7 +120,7 @@
     </main>
     <footer>
         <div class="footer-logo">
-            <a href="index.html"><img src="images/chamber_logo.png" width="200" alt="Ciudad Juárez Chamber of Commerce Logo"></a>
+            <a href="index.html"><img src="images/chamber_logo.webp" width="200" alt="Ciudad Juárez Chamber of Commerce Logo"></a>
             <h1>Ciudad Juárez Chamber of Commerce</h1>
             <h2>Av. Tecnológico 1340</h2>
             <h2>Ciudad Juárez, Chihuahua 32500</h2>
@@ -133,5 +139,6 @@
         </div>
     </footer>
     <script src="js/scripts.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 </html>

@@ -58,6 +58,7 @@
     
     .event {
         grid-column: 1/3 ;
+        padding: 3.5em ;
     }
 
     .spot {
