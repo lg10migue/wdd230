@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Load Activity</title>
+    <meta name="description" content="Lazy load activity">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link href="css/lazyload.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Progressive Loading of Images</h1>
+        <h2>Miguel A. López</h2>
+    </header>
+    <main>
+        <h1>Progressive Loading of Images</h1>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/image_one.jpg" alt="Image One">
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/image_two.jpg" alt="Image Two">
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/image_three.jpg" alt="Image Three">
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/image_four.jpg" alt="Image Four">
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/image_five.jpg" alt="Image Five">
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/image_six.jpg" alt="Image Six">
+        </picture>
+    </main>
+    <footer>
+        &copy; <span></span> &#9964; Miguel A. López &#9964; México 
+        <br>Last Updated: <span id="lastupdate"></span>
+    </footer>
+    <script src="js/lazyload.js"></script>
+</body>
+</html>
