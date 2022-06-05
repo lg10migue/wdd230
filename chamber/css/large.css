@@ -94,6 +94,14 @@
         margin: 0 ;
     }
 
+    .discover-content img[src] {
+        width: 85% ;
+    }
+
+    .discover-content figcaption {
+        font-size: .8em ;
+    }
+
     /* Footer */
 
     footer {

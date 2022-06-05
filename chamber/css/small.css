@@ -33,7 +33,7 @@ header img {
 	margin: auto ;
 }
 
-.current-date, .top-banner {
+.current-date, .top-banner, .last-visit {
 	text-align: center ;
 	font-size: .9em ;
 	background-color: #E41A4F ;
@@ -165,6 +165,25 @@ main h3 {
 	background-color: #c4c2c2 ;
 	border: 1px solid #a5a5a5 ;
 	padding: 1em ;
+}
+
+.discover-content {
+	display: flex ;
+}
+
+.discover-content div {
+	text-align: center ;
+  	margin: 0 auto ;
+}
+
+.discover-content img[data-src] {
+	filter: blur( 0.2em ) ;
+}
+
+.discover-content img[src] {
+	filter: blur( 0em ) ;
+	transition: filter 2s ;
+	width: 100% ;
 }
 
 /* Footer */
