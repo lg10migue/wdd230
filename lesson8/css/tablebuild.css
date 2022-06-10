@@ -49,7 +49,7 @@ th, td {
 }
 
 th {
-	background-color: rgb(69, 121, 218) ;
+	background-color: rgb(25, 111, 168) ;
     color: #FFF;
 }
 
@@ -65,8 +65,8 @@ tbody tr:nth-child( odd ) {
 	background-color: rgb( 233, 232, 232 ) ;
 }
 
-.green {
-	background-color: rgb(69, 121, 218) ;
+.diff {
+	background-color: rgb(25, 111, 168) ;
     color: #FFF ;
 }
 
