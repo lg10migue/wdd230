@@ -1,0 +1,74 @@
+/* Body */
+
+body {
+	font-family: "Ubuntu", sans-serif ;
+	font-size: 16px ;
+	border-radius: 1em ;
+	margin: 0 ;
+	padding: 0 ;
+}
+
+header {
+	margin: 0 ;
+    display: flex ;
+    justify-content: center ;
+}
+
+footer {
+	padding: 1em ;
+}
+
+header, footer {
+    background-color: rgb( 42, 116, 165 ) ;
+    text-align: center ;
+    color: white ;
+}
+
+main {
+	max-width: 770px ;
+	margin: 0 auto ;
+}
+
+/* Table */
+
+table {
+    border-collapse: collapse ;
+	margin: 50px auto ;
+	border: thin solid hsl(0, 0%, 20%) ;
+	box-shadow: 0 0 30px hsl(0, 0%, 50%) ;
+}
+
+tr:first-child th {
+	background-color: rgb(51, 129, 148) ;
+	color: rgb(233, 232, 232) ;
+}
+
+th, td {
+	padding: 7px 15px ;
+	border: 1px solid hsl(0, 0%, 33%) ;
+}
+
+th {
+	background-color: hsla(187, 47%, 45%, 0.5) ;
+}
+
+td {
+	text-align: center ;
+}
+
+tbody tr:nth-child( even ) {
+	background-color: rgb(219, 241, 230) ;
+}
+
+tbody tr:nth-child( odd ) {
+	background-color: rgb(233, 232, 232) ;
+}
+
+.green {
+	background-color: rgb(51, 129, 148) ;
+}
+
+tfoot {
+	background-color: hsla(187, 47%, 45%, 0.5) ;
+	font-size: 12px ;
+}
