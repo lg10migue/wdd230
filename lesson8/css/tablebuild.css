@@ -34,22 +34,23 @@ main {
 table {
     border-collapse: collapse ;
 	margin: 50px auto ;
-	border: thin solid hsl(0, 0%, 20%) ;
-	box-shadow: 0 0 30px hsl(0, 0%, 50%) ;
+	border: thin solid hsl( 0, 0%, 20% ) ;
+	box-shadow: 0 0 30px hsl( 0, 0%, 50% ) ;
 }
 
 tr:first-child th {
-	background-color: rgb(51, 129, 148) ;
-	color: rgb(233, 232, 232) ;
+	background-color: rgb(110, 180, 197) ;
+	color: rgb( 0, 0, 0 ) ;
 }
 
 th, td {
 	padding: 7px 15px ;
-	border: 1px solid hsl(0, 0%, 33%) ;
+	border: 1px solid hsl( 0, 0%, 33% ) ;
 }
 
 th {
-	background-color: hsla(187, 47%, 45%, 0.5) ;
+	background-color: rgb(69, 121, 218) ;
+    color: #FFF;
 }
 
 td {
@@ -57,18 +58,23 @@ td {
 }
 
 tbody tr:nth-child( even ) {
-	background-color: rgb(219, 241, 230) ;
+	background-color: rgb( 219, 241, 230 ) ;
 }
 
 tbody tr:nth-child( odd ) {
-	background-color: rgb(233, 232, 232) ;
+	background-color: rgb( 233, 232, 232 ) ;
 }
 
 .green {
-	background-color: rgb(51, 129, 148) ;
+	background-color: rgb(69, 121, 218) ;
+    color: #FFF ;
+}
+
+.cursive {
+    font-style: italic ;
 }
 
 tfoot {
-	background-color: hsla(187, 47%, 45%, 0.5) ;
+	background-color: rgb(110, 180, 197) ;
 	font-size: 12px ;
 }
