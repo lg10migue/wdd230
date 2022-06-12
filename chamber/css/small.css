@@ -168,6 +168,8 @@ main h3 {
 	padding: 1em ;
 }
 
+/* Discover Page */
+
 .discover-content {
 	display: flex ;
 }
@@ -185,6 +187,104 @@ main h3 {
 	filter: blur( 0em ) ;
 	transition: filter 2s ;
 	width: 100% ;
+}
+
+/* Join Page */
+
+.join-content {
+	display: block ;
+	padding: 1em ;
+}
+
+.join-content div {
+	padding: .3em ;
+}
+
+.join-content div h2 {
+	text-align: center ;
+}
+
+.join-content h3 {
+	text-align: center ;
+}
+
+.join-content .memberships-info {
+	display: none ;
+	border-radius: 10px ;
+}
+
+form h3 {
+	margin: .5em ;
+}
+
+form {
+	background-color: #c4c2c2 ;
+	padding: .5em ;
+	border-radius: 10px ;
+	box-shadow: 5px 5px 10px grey ;
+}
+
+form fieldset {
+	border: 1px solid #680c24 ;
+	border-radius: 10px ;
+    padding: .5em ;
+}
+
+form legend {
+	color: #680c24 ;
+    padding: .2em ;
+}
+
+form label.info, form div {
+	display: block ;
+	color: #680c24 ;
+	font-size: .8em ;
+	margin-top: .6em ;
+}
+
+form label.info input, form label textarea {
+    display: block ;
+    font-size: 1.3em ;
+    border: solid 1px #999 ;
+    border-radius: 4px ;
+    padding: .75em ;
+    color: #555 ;
+    width: 100% ;
+	max-width: 20em ;
+}
+
+form label.radio {
+    display: block ;
+    padding: .5em 0 ;
+    color: #680c24 ;
+}
+
+form div {
+	border: none ;
+	margin: 0 ;
+	box-shadow: none ;
+	text-align: left ;
+	padding: 0 ;
+}
+
+form input.submitBtn {
+    border: none ;
+    background-color: #680c24 ;
+    color: white ;
+    border-radius: 1em ;
+    padding: .55em 1.5em ;
+    margin: .5em ;
+    width: 96% ;
+}
+
+/* Thankyou Page */
+
+.thankyou-content {
+	display: block ;
+}
+
+.thankyou-content h2 {
+	text-align: center ;
 }
 
 /* Footer */

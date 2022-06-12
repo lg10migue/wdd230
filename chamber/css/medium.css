@@ -67,8 +67,21 @@
         margin: 3px ;
     }
 
+    /* Discover Page */
+
     .discover-content img:hover {
         box-shadow: 0 0 50px #333 ;
+    }
+    
+    /* Join Page */
+
+    .join-content .memberships-info {
+        display: block ;
+        padding: .9em ;
+    }
+
+    .join-content .prices {
+        font-weight: bold ;
     }
 
     /* Footer */
