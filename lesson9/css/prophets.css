@@ -1,0 +1,54 @@
+/* Body */
+
+body {
+	font-family: "Lato", sans-serif ;
+	font-size: 16px ;
+	border-radius: 1em ;
+	margin: 0 ;
+	padding: 0 ;
+    text-align: center ;
+}
+
+header {
+	margin: 0 ;
+    display: flex ;
+    justify-content: center ;
+}
+
+footer {
+	padding: 1em ;
+}
+
+header, footer {
+    background-color: #FFF ;
+    color: rgb(20, 36, 88) ;
+}
+
+.cards {
+    display: grid ;
+    grid-template-columns: repeat( auto-fit, minmax( 300px, 1fr ) ) ;
+    width: 95% ;
+    margin: 0 auto ;
+    padding: .7em ;
+    box-shadow: 0 0 35px rgb(0, 0, 0);
+    background-color: rgb(131, 152, 221) ;
+}
+
+img {
+    max-width: 70% ;
+    max-height: 300px ;
+    box-shadow: 0 0 25px rgb(0, 0, 0);
+    margin-bottom: inherit ;
+}
+
+.cards section {
+    font-size: .8em ;
+    background-color: rgb(89, 124, 238) ;
+    border: 1px solid rgb(20, 36, 88) ;
+    color: #0d183a ;
+    margin: .2rem ;
+}
+
+.cards section h2 {
+    font-weight: bold ;
+}
