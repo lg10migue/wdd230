@@ -287,6 +287,75 @@ form input.submitBtn {
 	text-align: center ;
 }
 
+/* Directory Page */
+
+.directory-content {
+	display: block ;
+}
+
+.directory-content img {
+	height: 90px;
+	max-width: 100% ;
+}
+
+.directory-content div {
+	background-color: #FFF ;
+	box-shadow: none ;
+	border: none ;
+}
+
+.directory-content section {
+	color: #00447D ; 
+	font-size: .9em ;
+	background-color: #FFF ;
+	box-shadow: 5px 5px 10px grey ;
+	margin: .9em ;
+	padding: 1em ;
+}
+
+.directory-content section a {
+	font-size: .9em ;
+}
+
+.directory-grid {
+	display: grid ;
+    grid-template-columns: repeat( auto-fit, minmax( 320px, 1fr ) ) ;
+    align-items: center ;
+}
+
+.directory-grid section h3 {
+	display: none ;
+}
+
+.directory-list section h3 {
+	text-shadow: none ;
+}
+
+.directory-list img {
+	display: none ;
+}
+
+.directory-list section {
+	text-align: left ;	
+	box-shadow: none ;
+}
+
+.directory-list section:nth-child( odd ) {
+	background-color: #c4c2c2 ;
+}
+
+.directory-content button img {
+	height: 20px ;
+	margin-top: 4px ;
+	cursor: pointer ;
+}
+
+.directory-content button {
+	text-align: center ;
+	background-color: #FFF ;
+	border: 2px solid #00447D ;
+}
+
 /* Footer */
 
 footer {

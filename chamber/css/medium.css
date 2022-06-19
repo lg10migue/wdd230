@@ -84,6 +84,17 @@
         font-weight: bold ;
     }
 
+    /* Directory Page */
+
+    .directory-list section {
+        display: flex ;
+        flex-direction: row ;
+    }
+
+    .directory-list section > * {
+        margin: 0 .8em ;
+    }
+
     /* Footer */
 
     footer {

@@ -1,0 +1,84 @@
+{
+    "companies" : [
+        {
+            "name" : "Furniture Villareal", 
+            "address" : "Av. De las Torres #2751 C-3, C.P. 54643, Cd. Juárez, CH",
+            "phone" : "(656)-690-6229",
+            "website" : "https://cdjuarez.villarrealmuebles.com/",
+            "membership" : "Bronze Membership",
+            "imageurl" : "images/villareal_logo.jpg"
+        },
+        {
+            "name" : "Pizza Cobre 29", 
+            "address" : "Ramón Rayón #450-2, C.P. 32543, Cd. Juárez, CH",
+            "phone" : "(656)-694-3981",
+            "website" : "https://www.cobre29.com.mx/",
+            "membership" : "Gold Membership",
+            "imageurl" : "images/cobre29_logo.webp"
+        },
+        {
+            "name" : "Alabama Fried Chicken", 
+            "address" : "Santiago Troncoso #1167, C.P. 32574, Cd. Juárez, CH",
+            "phone" : "(656)-511-9046",
+            "website" : "https://es-la.facebook.com/alabamacdjuarez/",
+            "membership" : "Gold Membership",
+            "imageurl" : "images/alabama_logo.webp"
+        },
+        {
+            "name" : "Smart", 
+            "address" : "Av. Henequén #661, C.P. 32599, Cd. Juárez, CH",
+            "phone" : "(656)-624-1588",
+            "website" : "https://www.supermercadossmart.com/",
+            "membership" : "NP Membership",
+            "imageurl" : "images/smart_logo.png"
+        },
+        {
+            "name" : "Hágalo", 
+            "address" : "Santiago Troncoso #870, C.P. 32575, Cd. Juárez, CH",
+            "phone" : "01800-385-0005",
+            "website" : "https://hagalo.mx/",
+            "membership" : "Silver Membership",
+            "imageurl" : "images/hagalo_logo.jpg"
+        },
+        {
+            "name" : "Bamboo Garden", 
+            "address" : "Ejercito Nacional #8254, C.P. 53824, Cd. Juárez, CH",
+            "phone" : "(656)-618-5328",
+            "website" : "https://es-la.facebook.com/bamboojuarez/",
+            "membership" : "Bronze Membership",
+            "imageurl" : "images/bamboogarden_logo.webp"
+        },
+        {
+            "name" : "Wiwynn México", 
+            "address" : "Baudelio Perez Mucharras #420, C.P. 32550, Cd. Juárez, CH",
+            "phone" : "(656)-146-4400",
+            "website" : "https://www.facebook.com/wiwynnmexico/",
+            "membership" : "Gold Membership",
+            "imageurl" : "images/wiwynn_logo.webp"
+        },
+        {
+            "name" : "Burrito Crisostomo", 
+            "address" : "Av. Francisco Villarreal Torres #2050, C.P. 35647, Cd. Juárez, CH",
+            "phone" : "(656)-477-1146",
+            "website" : "https://www.burritocrisostomo.com/",
+            "membership" : "Silver Membership",
+            "imageurl" : "images/crisostomo_logo.webp"
+        },
+        {
+            "name" : "Supermarket González", 
+            "address" : "Av. Manuel Talamas Camandari #791, C.P. 32575, Cd Juárez, CH",
+            "phone" : "(656)-632-5429",
+            "website" : "https://www.supermercadogonzalez.com/",
+            "membership" : "Silver Membership",
+            "imageurl" : "images/gonzalez_logo.png"
+        },
+        {
+            "name" : "Ópticas veinte-veinte", 
+            "address" : "Bulevard Teofilo Borunda #8681, C.P. 32663, Cd Juárez, CH",
+            "phone" : "(656)-648-4187",
+            "website" : "https://www.opticas20-20.com/",
+            "membership" : "NP Membership",
+            "imageurl" : "images/opticas2020_logo.jpg"
+        }
+    ]
+}
