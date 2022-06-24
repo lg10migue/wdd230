@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <meta name="description" content="Weather API">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link href="css/weather-api.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>OpenWeatherMap.org API Test</h1>
+    </header>
+    <main>
+        <p>The current temperature in Fairbanks, Alaska is <span id="current-temp"></span> &deg;F</p>
+        <h2>Current Condition Icon</h2>
+        <figure>
+            <img src="" alt="" id="weather-icon"/>
+            <figcaption></figcaption>
+        </figure>
+    </main>
+    <footer>
+        &copy; <span id="year"></span> &#9964; Miguel A. López &#9964; México 
+        <br>Last Updated: <span id="lastupdate"></span>
+    </footer>
+    <script src="js/dates.js"></script>
+    <script src="js/weather-api.js"></script>
+</body>
+</html>
