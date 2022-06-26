@@ -27,7 +27,7 @@ function displayResults( weatherData ) {
     let desc = weatherData.weather[0].description ;
     weatherIcon.setAttribute( "src", iconsrc ) ;
     weatherIcon.setAttribute( "alt", desc ) ;
-    desc = desc.toLowerCase().replace( /\b[a-z]/g, UpperCase )
+    desc = desc.toLowerCase().replace( /\b[a-z]/g, UpperCase ) ;
     captionDesc.textContent = desc ;
 }
 

@@ -67,6 +67,16 @@
         margin: 3px ;
     }
 
+    .weather figure img {
+        width: 35% ;
+    }
+    
+    .weather figure p {
+        margin-left: .5em ;
+        margin-top: 1em ;
+        font-size: 1.5em ;
+    }
+
     /* Discover Page */
 
     .discover-content img:hover {

@@ -71,15 +71,19 @@
         </div>
         <div class="weather">
             <h3>Weather</h3>
-            <img src="" alt="Actual weather image">
-            <p><span id="temperature">9</span> &#8451;</p>
-            <h2>Partly Cloud</h2>
+            <figure>
+                <img src="" alt="Actual Weather Image" id="weather-icon">
+                <p><span id="temperature"></span> &#8451;</p>
+            </figure>
+            <h2 id="weather-description"></h2>
             <hr>
-            <p>Wind Speed: <span id="wind-speed">5.5</span> km/h</p>
+            <p>Wind Speed: <span id="wind-speed"></span> km/h</p>
             <p>Wind Chill: <span id="wind-chill"></span></p>
         </div>
         <div class="join">
-            <a href="#" target="_blank">Join Us!</a>
+            <p id="link">
+                <a href="join.html" target="_blank">Join Us!</a>
+            </p>
             <p>
                 Discover how to join the chamber of commerce and how it will benefit your organization!
             </p>
@@ -138,6 +142,6 @@
         </div>
     </footer>
     <script src="js/scripts.js"></script>
-    <script src="js/windchill.js"></script>
+    <script src="js/weather.js"></script>
 </body>
 </html>

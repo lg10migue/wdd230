@@ -115,7 +115,7 @@ main div, article {
 	border: 1px solid #a5a5a5 ;
 	text-align: center ;
 	margin: .8em ;
-	padding: 1em ;
+	padding: .5em ;
 	box-shadow: 5px 5px 10px grey ;
 }
 
@@ -152,6 +152,24 @@ main h3 {
 	display: none ;
 }
 
+.join #link {
+	background-color: #680c24 ;
+	border-radius: .8em ;
+	cursor: pointer ;
+}
+
+.join #link a {
+	display: block ;
+	font-weight: 1000 ;
+	color: #FFF ;
+	width: 100% ;
+	padding: .6em ;
+}
+
+.join #link a:link {
+	text-decoration: none ;
+}
+
 .spotlight {
 	display: flex ;
 	flex-direction: column ;
@@ -166,6 +184,27 @@ main h3 {
 	background-color: #c4c2c2 ;
 	border: 1px solid #a5a5a5 ;
 	padding: 1em ;
+}
+
+.weather h2 {
+	text-align: center ;
+	font-size: 1em ;
+}
+
+.weather figure {
+	display: flex ;
+	justify-content: center ;
+	margin-bottom: 0 ;
+}
+
+.weather figure img {
+	width: 25% ;
+}
+
+.weather figure p {
+	margin-left: .5em ;
+	margin-top: 1.4em ;
+	font-size: 1.5em ;
 }
 
 /* Discover Page */
@@ -222,6 +261,7 @@ form {
 	padding: .5em ;
 	border-radius: 10px ;
 	box-shadow: 5px 5px 10px grey ;
+	margin: .4em ;
 }
 
 form fieldset {
