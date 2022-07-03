@@ -227,7 +227,7 @@ main h3 {
 	filter: blur( 0.2em ) ;
 }
 
-.discover-content img[src] {
+.discover-content img {
 	filter: blur( 0em ) ;
 	transition: filter 2s ;
 	width: 100% ;
@@ -416,7 +416,7 @@ form input.submitBtn {
 
 
 
-.contact-content div section {
+.contact-content div section, .contact-content div picture {
 	text-align: center ;
 	justify-content: center ;
 	margin: auto ;
