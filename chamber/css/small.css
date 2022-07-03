@@ -186,6 +186,11 @@ main h3 {
 	padding: 1em ;
 }
 
+.spot img {
+	max-height: 50px ;
+	max-width: 100% ;
+}
+
 .weather h2 {
 	text-align: center ;
 	font-size: 1em ;
@@ -394,6 +399,27 @@ form input.submitBtn {
 	text-align: center ;
 	background-color: #FFF ;
 	border: 2px solid #00447D ;
+}
+
+/* Contact Page */
+
+.contact-content {
+	display: flex ;
+	justify-content: center ;
+}
+
+.contact-content div {
+	display: flex ;
+	border-radius: 10px ;
+	padding: 2em ;
+}
+
+
+
+.contact-content div section {
+	text-align: center ;
+	justify-content: center ;
+	margin: auto ;
 }
 
 /* Footer */
