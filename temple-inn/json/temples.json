@@ -1,0 +1,64 @@
+{
+    "temples" : [
+        {
+            "name" : "Ciudad Juárez Mexico Temple",
+            "address" : "Calle Paraguay # 290, Esq. José Borunda, Col. Partido Romero, 32177 Ciudad Juárez, Chihuahua, Mexico",
+            "phone" : "(52) 656-611-5146",
+            "email" : "cdjztemple@info.org",
+            "services" : [ "Patron housing available", "Distribution center nearby" ],
+            "milestones" : [ "7 May 1998, Announced", "9 January 1999, Groundbreaking", "26 February 2000, Dedicated" ],
+            "imgurlone" : "images/juarez_temple_one.webp",
+            "imgurltwo" : "images/juarez_temple_two.webp"
+        },
+        {
+            "name" : "Mexico City Mexico Temple",
+            "address" : "Avenida 510 #90, Col. San Juan de Aragon, 07950 México, Distrito Federal, Mexico",
+            "phone" : "(52) 55-5003-3700",
+            "email" : "cdmxtemple@info.org",
+            "services" : [ "Clothing rental available", "Patron housing available", "Distribution center nearby" ],
+            "milestones" : [ "3 April 1976, Announced", "25 November 1979, Groundbreaking", "2 December 1983, Dedicated", "16 November 2008, Rededicated", "13 September 2015, Rededicated" ],
+            "imgurlone" : "images/mexico_temple_one.webp",
+            "imgurltwo" : "images/mexico_temple_two.webp"
+        },
+        {
+            "name" : "Veracruz Mexico Temple",
+            "address" : "Ave. Ejercito Mexicano, Esq. Michoacan, Colonia Luis Echeverria, 94295 Boca del Rio, Veracruz, Mexico",
+            "phone" : "(52) 229-922-9621",
+            "email" : "vertemple@info.org",
+            "services" : [ "Distribution center nearby" ],
+            "milestones" : [ "14 April 1999, Announced", "29 May 1999, Groundbreaking", "9 July 2000, Dedicated" ],
+            "imgurlone" : "images/veracruz_temple_one.webp",
+            "imgurltwo" : "images/veracruz_temple_two.webp"
+        },
+        {
+            "name" : "Monterrey Mexico Temple",
+            "address" : "Av. Eugenio Garza Sada, Esq. Privada Valle de la Estanzuela, Colonia Valle Alto, 64989 Monterrey, Nuevo Leon, Mexico",
+            "phone" : "(52) 81-8104-0635",
+            "email" : "mtytemple@info.org",
+            "services" : [ "Distribution center nearby" ],
+            "milestones" : [ "21 December 1995, Announced", "4 November 2000, Groundbreaking", "28 April 2002, Dedicated" ],
+            "imgurlone" : "images/monterrey_temple_one.webp",
+            "imgurltwo" : "images/monterrey_temple_two.webp"
+        },
+        {
+            "name" : "Guadalajara Mexico Temple",
+            "address" : "Av. Patria #879, Fracc. Jardines Tepeyac, 45030 Zapopan, Jalisco, Mexico",
+            "phone" : "(52) 33-3125-1283",
+            "email" : "gdltemple@info.org",
+            "services" : [ "Distribution center nearby" ],
+            "milestones" : [ "14 April 1999, Announced", "12 June 1999, Groundbreaking", "29 April 2001, Dedicated" ],
+            "imgurlone" : "images/guadalajara_temple_one.webp",
+            "imgurltwo" : "images/guadalajara_temple_two.webp"
+        },
+        {
+            "name" : "Tuxtla Gutiérrez Mexico Temple",
+            "address" : "Carr a Chicoasen Chiapas Km 1.4, Esq Paseo de la Roseta, Fracc San José Chapultepec, 29047 Tuxtla Gutiérrez, Chiapas, Mexico,",
+            "phone" : "(52) 961-615-8287",
+            "email" : "tuxtlatemple@info.org",
+            "services" : [ "Distribution center nearby" ],
+            "milestones" : [ "25 February 1999, Announced", "20 March 1999, Groundbreaking", "12 March 2000, Dedicated" ],
+            "imgurlone" : "images/tuxtla_temple_one.webp",
+            "imgurltwo" : "images/tuxtla_temple_two.webp"
+        }
+    ]
+}

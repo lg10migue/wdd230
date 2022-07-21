@@ -1,0 +1,168 @@
+/* Body */
+
+body {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 16px ;
+}
+
+h1, h2, h3, h4 {
+	font-family: "Open Sans", Arial, sans-serif ;
+}
+
+/* Header */
+
+header {
+    display: flex ;
+    flex-direction: row ;
+    justify-content: space-between ;
+    align-items: center ;
+    padding: .5em ;
+    background-color: #FCF7EA ;
+}
+
+header img {
+    width: 30% ;
+}
+
+header img.open {
+    display: none ;
+}
+
+header p {
+    font-size: 2rem ;
+    font-family: "Open Sans", Arial, sans-serif ;
+}
+
+header p.open {
+    display: none ;
+}
+
+nav ul li:hover {
+	background-color: #f5e7eb ;
+}
+
+nav ul li a {
+	display: block ;
+    padding: .5em ;
+    text-decoration: none ;
+    color: #000 ;
+}
+
+nav ul {
+    display: none ;
+}
+
+nav ul.open {
+	list-style-type: none ;
+    display: flex ;
+    flex-direction: row ;
+	font-size: 1em ;
+	margin: .1em ;
+}
+
+#hamburgerBtn span:nth-child( 1 ) {
+    display: block ;
+}
+
+#hamburgerBtn span:nth-child( 2 ) {
+    display: none ;
+}
+
+#hamburgerBtn.open span:nth-child( 1 ) {
+    display: none ;
+}
+
+#hamburgerBtn.open span:nth-child( 2 ) {
+    display: block ;
+}
+
+/* Footer */
+
+footer {
+    text-align: center ;
+    font-size: .8em ;
+    background-color: #FCF7EA ;
+}
+
+footer .center-footer img {
+    width: 30% ;
+}
+
+footer a {
+    text-decoration: none ;
+    color: black ;
+}
+
+footer .center-footer a:hover {
+    background-color: #f5e7eb ;
+}
+
+.social-footer img {
+    width: 8% ;
+}
+
+/* Main */
+
+.temple-ads {
+    display: flex ;
+    flex-direction: column ;
+    justify-content: center ;
+}
+
+.temple-photo {
+    display: flex ;
+    justify-content: center ;
+}
+
+.temple-ads picture {
+    display: flex ;
+}
+
+.temple-ads img {
+    width: 100% ;
+    object-fit: cover ;
+}
+
+.temple-ads button {
+    cursor: pointer ;
+    font-size: 2.5em ;
+    position: relative ;
+    background-color: transparent ;
+    border: none ;
+    color: red ;
+}
+
+.temple-ads #left, .temple-ads #right {
+    bottom: 50% ;
+}
+
+.temple-ads #right {
+    right: 0% ;
+}
+
+.temple-information {
+    text-align: center ;
+}
+
+.weather {
+    display: block ;
+    text-align: center ;
+}
+
+.forecast {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    border-radius: 10px;
+  }
+  
+.forecast section {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color:  #eee;
+    border: 1px solid #bbb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+}

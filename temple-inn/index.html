@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Inn & Suites</title>
+    <meta name="description" content="Temple Inn & Suites Home Page.">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/temple_inn_logo.webp" alt="Temple Inn Logo">
+        <p id="title">Temple Inn</p>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="temple.html">Temples</a></li>
+                <li><a href="services.html">Service</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="temple-ads">
+            <div class="temple-photo">
+                <button type="button" id="left">&#8249;</button>
+                <picture>
+                    <img src="" alt="">
+                </picture>
+                <button type="button" id="right">&#8250;</button>
+            </div>
+            <div class="temple-information">
+                <p><b><span id="temple-name"></span></b></p>
+                <p><span id="temple-dedication"></span></p>
+            </div>
+        </div>
+        <div class="weather">
+            <h2>Current Weather</h2>
+            <figure>
+                <img src="images/placeholder.webp" alt="Actual Weather Image" id="weather-icon">
+                <p><span id="temperature"></span> &#8451;</p>
+            </figure>
+            <h3 id="weather-description">Weather Description</h3>
+            <p>Humidity: <span id="humidity"></span>%</p>
+        </div>
+        <div class="forecast">
+        </div>
+    </main>
+    <footer>
+        <div class="social-footer">
+            <a href="https://facebook.com" target="_blank"><img src="images/facebook_logo.webp" alt="Facebook Logo"></a>
+            <a href="https://instagram.com" target="_blank"><img src="images/instagram_logo.webp" alt="Instagram Logo"></a>
+        </div>
+        <div class="center-footer">
+            <p><b>Temple Inn & Suites</b></p>
+            <p>4800 Montgomery Ln #300</p>
+            <p>Bethesda, MD 20814</p>
+            <p>Phone: (555) 555-5555</p>
+            <p><a href="https://goo.gl/maps/GmuGStjFhxibrutB7" target="_blank">&#x1F4CD; Location Map</a></p>
+            <img src="images/temple_inn_logo.webp" alt="Temple Inn Logo">
+        </div>
+        <div class="down-footer">
+            <hr>
+            <p id="name"><b>Miguel López</b></p>
+            <p id="class-name">WDD 230 Final Project</p>
+            <p id="update">Last Updated: <span id="lastupdate"></span></p>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+    <script src="js/temple_ads.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>
