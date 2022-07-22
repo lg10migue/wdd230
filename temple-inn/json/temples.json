@@ -8,7 +8,9 @@
             "services" : [ "Patron housing available", "Distribution center nearby" ],
             "milestones" : [ "7 May 1998, Announced", "9 January 1999, Groundbreaking", "26 February 2000, Dedicated" ],
             "imgurlone" : "images/juarez_temple_one.webp",
-            "imgurltwo" : "images/juarez_temple_two.webp"
+            "imgurltwo" : "images/juarez_temple_two.webp",
+            "latitude" : 31.7333300,
+            "longitude" : -106.4833300
         },
         {
             "name" : "Mexico City Mexico Temple",
@@ -18,7 +20,9 @@
             "services" : [ "Clothing rental available", "Patron housing available", "Distribution center nearby" ],
             "milestones" : [ "3 April 1976, Announced", "25 November 1979, Groundbreaking", "2 December 1983, Dedicated", "16 November 2008, Rededicated", "13 September 2015, Rededicated" ],
             "imgurlone" : "images/mexico_temple_one.webp",
-            "imgurltwo" : "images/mexico_temple_two.webp"
+            "imgurltwo" : "images/mexico_temple_two.webp",
+            "latitude" : 19.432608,
+            "longitude" : -99.133209
         },
         {
             "name" : "Veracruz Mexico Temple",
@@ -28,7 +32,9 @@
             "services" : [ "Distribution center nearby" ],
             "milestones" : [ "14 April 1999, Announced", "29 May 1999, Groundbreaking", "9 July 2000, Dedicated" ],
             "imgurlone" : "images/veracruz_temple_one.webp",
-            "imgurltwo" : "images/veracruz_temple_two.webp"
+            "imgurltwo" : "images/veracruz_temple_two.webp",
+            "latitude" : 19.173773,
+            "longitude" : -96.134224
         },
         {
             "name" : "Monterrey Mexico Temple",
@@ -38,7 +44,9 @@
             "services" : [ "Distribution center nearby" ],
             "milestones" : [ "21 December 1995, Announced", "4 November 2000, Groundbreaking", "28 April 2002, Dedicated" ],
             "imgurlone" : "images/monterrey_temple_one.webp",
-            "imgurltwo" : "images/monterrey_temple_two.webp"
+            "imgurltwo" : "images/monterrey_temple_two.webp",
+            "latitude" : 25.686613,
+            "longitude" : -100.316116
         },
         {
             "name" : "Guadalajara Mexico Temple",
@@ -48,7 +56,9 @@
             "services" : [ "Distribution center nearby" ],
             "milestones" : [ "14 April 1999, Announced", "12 June 1999, Groundbreaking", "29 April 2001, Dedicated" ],
             "imgurlone" : "images/guadalajara_temple_one.webp",
-            "imgurltwo" : "images/guadalajara_temple_two.webp"
+            "imgurltwo" : "images/guadalajara_temple_two.webp",
+            "latitude" : 20.659698,
+            "longitude" : -103.349609
         },
         {
             "name" : "Tuxtla Gutiérrez Mexico Temple",
@@ -58,7 +68,9 @@
             "services" : [ "Distribution center nearby" ],
             "milestones" : [ "25 February 1999, Announced", "20 March 1999, Groundbreaking", "12 March 2000, Dedicated" ],
             "imgurlone" : "images/tuxtla_temple_one.webp",
-            "imgurltwo" : "images/tuxtla_temple_two.webp"
+            "imgurltwo" : "images/tuxtla_temple_two.webp",
+            "latitude" : 16.75973,
+            "longitude" : -93.11308
         }
     ]
 }

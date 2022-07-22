@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Temple Inn & Suites</title>
-    <meta name="description" content="Temple Inn & Suites Home Page.">
+    <meta name="description" content="Temple Inn & Suites Home Page">
+    <link rel="shortcut icon" href="favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
     <link href="css/small.css" rel="stylesheet">
@@ -26,6 +27,24 @@
         </nav>
     </header>
     <main>
+        <div class="weather-alert close">
+            <button type="button">X</button>
+            <p><span id="alert-name"></span></p>
+            <p><span id="description"></span></p>
+        </div>
+        <div class="welcome">
+            <h1>Welcome to Temple Inn & Suites!</h1>
+            <h2>Why choose us?</h2>
+            <h3>Experience and passion for service</h3>
+            <p>
+                Temple Inn & Suites is a hotel chain that was born in Bethesda, MD. Our more than 60 years of experience caring for our clients in the best destinations in the world endorse the company's main objective: the well-being of guests.
+            </p>
+            <h4>A home near the Temple</h4>
+            <p>
+                We work every day to continue offering the best facilities and exclusive services near each Temple. All of our hotels, have a guarantee of quality and standard of service that will turn your temple activity into truly unique experiences.
+            </p>
+            <h4>Keep browsing and discover the best of Temple Inn & Suites!</h4>
+        </div>
         <div class="temple-ads">
             <div class="temple-photo">
                 <button type="button" id="left">&#8249;</button>
@@ -37,6 +56,8 @@
             <div class="temple-information">
                 <p><b><span id="temple-name"></span></b></p>
                 <p><span id="temple-dedication"></span></p>
+                <p><span id="latitude" class="hidden"></span></p>
+                <p><span id="longitude" class="hidden"></span></p>
             </div>
         </div>
         <div class="weather">
@@ -50,6 +71,21 @@
         </div>
         <div class="forecast">
         </div>
+        <div class="social">
+            <div>
+                <h2>Join Our Community!</h2>
+                <p>We love being close to our clients, which is why we share our best Temple Inn moments on our social media pages. Join us and share your Temple Inn experiences!</p>
+            </div>
+            <div class="logos">
+                <a href="https://facebook.com" target="_blank" class="zoom"><img src="images/facebook_logo.webp" alt="Facebook Logo"></a>
+                <a href="https://instagram.com" target="_blank" class="zoom"><img src="images/instagram_logo.webp" alt="Instagram Logo"></a>
+            </div>
+        </div>
+        <div class="reservation">
+            <h2>Deal of the week!</h2>
+            <p>Make a reservation now and obtain 40% off in your 4th night!</p>
+            <p id="link"><a href="reservation.html" target="_blank">Go to reservation!</a></p>
+        </div>
     </main>
     <footer>
         <div class="social-footer">
@@ -57,11 +93,13 @@
             <a href="https://instagram.com" target="_blank"><img src="images/instagram_logo.webp" alt="Instagram Logo"></a>
         </div>
         <div class="center-footer">
-            <p><b>Temple Inn & Suites</b></p>
-            <p>4800 Montgomery Ln #300</p>
-            <p>Bethesda, MD 20814</p>
-            <p>Phone: (555) 555-5555</p>
-            <p><a href="https://goo.gl/maps/GmuGStjFhxibrutB7" target="_blank">&#x1F4CD; Location Map</a></p>
+            <div>
+                <p><b>Temple Inn & Suites</b></p>
+                <p>4800 Montgomery Ln #300</p>
+                <p>Bethesda, MD 20814</p>
+                <p>Phone: (555) 555-5555</p>
+                <p><a href="https://goo.gl/maps/GmuGStjFhxibrutB7" target="_blank">&#x1F4CD; Location Map</a></p>
+            </div>
             <img src="images/temple_inn_logo.webp" alt="Temple Inn Logo">
         </div>
         <div class="down-footer">
@@ -72,7 +110,6 @@
         </div>
     </footer>
     <script src="js/scripts.js"></script>
-    <script src="js/temple_ads.js"></script>
-    <script src="js/weather.js"></script>
+    <script src="js/weather_by_temple.js"></script>
 </body>
 </html>

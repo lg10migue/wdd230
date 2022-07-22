@@ -1,1 +1,66 @@
-@media only screen and (min-width: 60em) {}
+@media only screen and (min-width: 60em) {
+    /* Header */
+    header img {
+        max-width: 180px ;
+    }
+
+    /* Footer */
+    footer .center-footer img {
+        max-width: 180px ;
+    }
+
+    .social-footer img {
+        width: 3% ;
+    }
+
+    .down-footer {
+        display: grid ;
+        grid-template-columns: repeat( 5, 1fr ) ;
+    }
+
+
+    #class-name {
+        border-right: 2px solid #000 ;
+        /* grid-column: 4 / 5 ; */
+    }
+
+    #update {
+        grid-row: 2 / 3 ;
+        grid-column: 4 / 5 ;
+    }    
+
+    /* Main */
+    main {
+        width: 98% ;
+        margin: .7em auto ;
+    }
+
+    main > * {
+        border: 1px solid #897000 ;
+        border-radius: 10px ;
+        margin: .4em ;
+        box-shadow: 5px 5px 5px rgba(137, 112, 0, 0.404) ;
+    }
+
+    /* Reservation Page */
+
+    .reservation-content form {
+        display: grid ;
+        grid-template-columns: repeat( 3, 1fr ) ;
+        align-items: center ;
+        margin: auto 0 ;
+    }
+
+    .reservation-content form h1 {
+        grid-column: 1 / 4 ;
+    }
+
+    .reservation-content form .submit-button {
+        grid-column: 2 / 3 ;
+    }
+
+    .reservation-content form fieldset {
+        min-height: 320px ;
+    }
+
+}

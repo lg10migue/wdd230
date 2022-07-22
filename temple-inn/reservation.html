@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Inn & Suites Reservation</title>
+    <meta name="description" content="Temple Inn & Suites Reservation Page">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/temple_inn_logo.webp" alt="Temple Inn Logo">
+        <p id="title">Temple Inn</p>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="temple.html">Temples</a></li>
+                <li><a href="services.html">Service</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="reservation-content">
+        <form action="thankyou.html" method="get">
+            <h1>Start your experience here!</h1>
+            <fieldset>
+                <legend>Guest Information</legend>
+                <label class="info">First Name* <input type="text" name="fname" required></label>
+                <label class="info">Last Name* <input type="text" name="lname" required></label>
+                <label class="info">Email* <input type="email" name="email" placeholder="me@gmail.com" required></label>
+                <label class="info">Cell Phone* <input type="tel" name="phone" required></label>
+                <label class="info">Home State / Country* <input type="text" name="home-location" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Reservation Information</legend>
+                <label>
+                    Location*
+                    <select name="location" required>
+                        <option value="">Please Select &#9662;</option>
+                        <option value="cdjz">Ciudad Juárez Mexico</option>
+                        <option value="cdmx">Mexico City Mexico</option>
+                        <option value="ver">Veracruz Mexico</option>
+                        <option value="mty">Monterrey Mexico</option>
+                        <option value="gdl">Guadalajara Mexico</option>
+                        <option value="tuxtla">Tuxtla Gutiérrez Mexico</option>
+                    </select>
+                </label>
+                <label>Check-In* <input type="date" name="check-in" required></label>
+                <label>Check-Out <input type="date" name="check-out"></label>
+                <label>Discount Code <input type="text" name="discount" pattern="^[a-zA-Z0-9]{6}$"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Room Information</legend>
+                <label>Rooms <input type="number" value="1" name="rooms"></label>
+                <label>
+                    Room Type
+                    <select name="room-type">
+                        <option value="single">Single</option>
+                        <option value="double">Double</option>
+                        <option value="studio">Studio</option>
+                        <option value="suite">Suite</option>
+                        <option value="master-suite">Master Suite</option>
+                    </select>
+                    <label>Adults <input type="number" value="1" name="adutls"></label>
+                    <label>Children <input type="number" value="0" name="children"></label>
+                    <label>Special Comments <textarea name="special-request"></textarea></label>
+                </label>
+            </fieldset>
+            <input type="submit" value="Reserve!" class="submit-button">
+        </form>
+    </main>
+    <footer>
+        <div class="social-footer">
+            <a href="https://facebook.com" target="_blank"><img src="images/facebook_logo.webp" alt="Facebook Logo"></a>
+            <a href="https://instagram.com" target="_blank"><img src="images/instagram_logo.webp" alt="Instagram Logo"></a>
+        </div>
+        <div class="center-footer">
+            <div>
+                <p><b>Temple Inn & Suites</b></p>
+                <p>4800 Montgomery Ln #300</p>
+                <p>Bethesda, MD 20814</p>
+                <p>Phone: (555) 555-5555</p>
+                <p><a href="https://goo.gl/maps/GmuGStjFhxibrutB7" target="_blank">&#x1F4CD; Location Map</a></p>
+            </div>
+            <img src="images/temple_inn_logo.webp" alt="Temple Inn Logo">
+        </div>
+        <div class="down-footer">
+            <hr>
+            <p id="name"><b>Miguel López</b></p>
+            <p id="class-name">WDD 230 Final Project</p>
+            <p id="update">Last Updated: <span id="lastupdate"></span></p>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
