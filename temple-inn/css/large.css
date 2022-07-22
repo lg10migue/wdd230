@@ -42,6 +42,17 @@
         box-shadow: 5px 5px 5px rgba(137, 112, 0, 0.404) ;
     }
 
+    /* Temples Page */
+
+    .temples {
+        border: none ;
+        box-shadow: none ;
+    }
+
+    .temples section {
+        box-shadow: 5px 5px 5px rgba(137, 112, 0, 0.404) ;
+    }
+
     /* Reservation Page */
 
     .reservation-content form {
@@ -55,12 +66,32 @@
         grid-column: 1 / 4 ;
     }
 
-    .reservation-content form .submit-button {
+    .reservation-content form div {
         grid-column: 2 / 3 ;
     }
 
     .reservation-content form fieldset {
-        min-height: 320px ;
+        min-height: 340px ;
+    }
+
+    form .submit-button {
+        width: 100% ;
+    }
+
+    /* Reception Page & Missionary Page */
+
+    .reception-content, .missionary-content {
+        width: 100% ;
+    }
+
+    .reception-photos, .missionary-photos {
+        border: none ;
+        box-shadow: none ;
+    }
+
+    .missionary-photos {
+        justify-content: center ;
+        align-items: center ;
     }
 
 }

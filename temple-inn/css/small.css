@@ -360,7 +360,36 @@ form .submit-button {
     background-color: #A9891A ;
     color: white ;
     border-radius: 1em ;
-    padding: .55em 1.5em ;
+    margin: 0 auto ;
+    width: 86% ;
+}
+
+/* Services Page */
+
+.services-content {
+    display: block ;
+}
+
+/* Reception Page & Missionary Page */
+
+.reception-content, .missionary-content {
+    display: block ;
+}
+
+.reception-photos, .missionary-photos {
+    display: grid ;
+    grid-template-columns: repeat( auto-fit, minmax( 200px, 1fr ) ) ;
+}
+
+.reception-photos img, .missionary-photos img {
+    width: 100% ;
+}
+
+.reception-info, .missionary-info {
+    background-color: rgba(137, 112, 0, 0.295) ;
+}
+
+.reception-info section, .missionary-info section {
+    border: 1px solid #897000 ;
     margin: .5em ;
-    width: 96% ;
 }

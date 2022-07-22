@@ -116,4 +116,24 @@
         min-height: 870px ;
     }
 
+    .temples section img {
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.438) ;
+    }
+
+    /* Reception Page & Missionary Page */
+
+    .reception-photos, .missionary-photos {
+        margin: 0 ;
+        padding: 0 ;
+    }
+
+    .reception-info, .missionary-info {
+        display: grid ;
+        grid-template-columns: repeat( 2, 1fr ) ;
+    }
+
+    .reception-info h1, .reception-info p, .missionary-info h1, .missionary-info p {
+        grid-column: 1 / 3 ;
+    }
+
 }
