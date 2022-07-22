@@ -15,18 +15,16 @@
 
     .down-footer {
         display: grid ;
-        grid-template-columns: repeat( 5, 1fr ) ;
+        grid-template-columns: repeat( 6, 1fr ) ;
     }
-
 
     #class-name {
         border-right: 2px solid #000 ;
-        /* grid-column: 4 / 5 ; */
     }
 
     #update {
         grid-row: 2 / 3 ;
-        grid-column: 4 / 5 ;
+        grid-column: 5 / 6 ;
     }    
 
     /* Main */
